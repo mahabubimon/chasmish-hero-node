@@ -26,8 +26,7 @@ const run = async () => {
   try {
     await client.connect();
     const database = client.db("chasmish-hero");
-    const glasse
-    sCollection = database.collection("glasses");
+    const glassesCollection = database.collection("glasses");
     // const ordersCollection = database.collection("orders");
 
     // Get API - Glasses

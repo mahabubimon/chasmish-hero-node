@@ -102,6 +102,14 @@ const run = async () => {
       res.json(result);
     });
 
+    // Delete API - Glasses
+    app.delete("/glasses/:id", async (req, res) => {
+      const id = req.params.id;
+      const query = { _id: ObjectId(id) };
+      const result = await glassesCollection.deleteOne(query);
+      res.json(result);
+    });
+
     // Post API- Orders
     app.post("/orders", async (req, res) => {
       const order = req.body;

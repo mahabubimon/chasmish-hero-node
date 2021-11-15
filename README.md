@@ -7,7 +7,7 @@ It is a single page application made with ReactJS, Bootstrap, ...
 ### [Chasmish Hero Live Site](https://chasmish-hero.web.app/)
 
 
-### [Chasmish Hero Server Site](https://chasmish-hero.web.app/)
+### [Chasmish Hero Server Site](https://chasmish-hero.herokuapp.com/)
 
 - [Live Link:] https://chasmish-hero.web.app/
 
